@@ -18,6 +18,6 @@ namespace Loanlib;
 
         public double GetDiscount()
         {
-            return GetEMI() * 0.1;
+            return GetEMI() * 0.05;
         }
     }

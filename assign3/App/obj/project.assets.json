@@ -15,7 +15,7 @@
   },
   "libraries": {
     "MET.Loanlib/1.0.0": {
-      "sha512": "0Am4deq2ylyVsu19u5M0yNhx34+7zFWaghCtlRkwCKUtXL8xYdF9b0F9viZA+3dOzaMrwSGog7hUrAU66qr//w==",
+      "sha512": "sKrQZ8t8BEEL8eifKLaH1ZIKRM8w6fEI5VZktdOEDsJVxeHwLE8DiGUfVJrlWuv35GjoayghqBYoUz3E9a68aw==",
       "type": "package",
       "path": "met.loanlib/1.0.0",
       "files": [
