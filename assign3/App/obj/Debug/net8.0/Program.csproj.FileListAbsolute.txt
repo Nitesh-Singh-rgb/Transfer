@@ -1,0 +1,17 @@
+/home/cdac/DOTNET/assign/assign3/App/bin/Debug/net8.0/Program
+/home/cdac/DOTNET/assign/assign3/App/bin/Debug/net8.0/Program.deps.json
+/home/cdac/DOTNET/assign/assign3/App/bin/Debug/net8.0/Program.runtimeconfig.json
+/home/cdac/DOTNET/assign/assign3/App/bin/Debug/net8.0/Program.dll
+/home/cdac/DOTNET/assign/assign3/App/bin/Debug/net8.0/Program.pdb
+/home/cdac/DOTNET/assign/assign3/App/bin/Debug/net8.0/Loan.dll
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.csproj.AssemblyReference.cache
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.AssemblyInfoInputs.cache
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.AssemblyInfo.cs
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.csproj.CoreCompileInputs.cache
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.csproj.Up2Date
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.dll
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/refint/Program.dll
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.pdb
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/Program.genruntimeconfig.cache
+/home/cdac/DOTNET/assign/assign3/App/obj/Debug/net8.0/ref/Program.dll

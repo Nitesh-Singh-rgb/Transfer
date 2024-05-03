@@ -1,0 +1,11 @@
+/home/cdac/DOTNET/assign/assign3/LoanLib/bin/Debug/net8.0/Loan.deps.json
+/home/cdac/DOTNET/assign/assign3/LoanLib/bin/Debug/net8.0/Loan.dll
+/home/cdac/DOTNET/assign/assign3/LoanLib/bin/Debug/net8.0/Loan.pdb
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/Loan.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/Loan.AssemblyInfoInputs.cache
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/Loan.AssemblyInfo.cs
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/Loan.csproj.CoreCompileInputs.cache
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/Loan.dll
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/refint/Loan.dll
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/Loan.pdb
+/home/cdac/DOTNET/assign/assign3/LoanLib/obj/Debug/net8.0/ref/Loan.dll
