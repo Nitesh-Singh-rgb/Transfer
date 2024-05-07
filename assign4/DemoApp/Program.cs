@@ -11,7 +11,7 @@ class Program
         Type t = Type.GetType($"MetTours.{args[2]}",true);
         object obj = Activator.CreateInstance(t);
         string te = null;
-        if(args[2] == "PremuimTours")
+        if(args[2] == "PremiumTours")
         {
             te = string.Format($"GetDaysRentFor{args[3]}");
         }
