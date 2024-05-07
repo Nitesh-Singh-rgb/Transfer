@@ -50,7 +50,7 @@
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "/home/cdac/DOTNET/assign/assign3/LoanLib/bin/Release/": {}
       },
       "frameworks": {
         "net8.0": {

@@ -17,9 +17,8 @@ public class Program
         double totalDiscount = 0;
         foreach(Loan loan in loans)
         {
-            if (loan is HomeLoan h1)
+            if (loan is Discountable h1)
             {
-                h1 = loan as HomeLoan;
                 totalDiscount += h1.GetDiscount();
             }
             else
@@ -34,9 +33,8 @@ public class Program
         double totalDiscount = 0;
         foreach(Loan loan in loans)
         {
-            if (loan is PersonalLoan h1)
+            if (loan is Taxable h1)
             {
-                h1 = loan as PersonalLoan;
                 totalDiscount += h1.GetTax();
             }
             else
