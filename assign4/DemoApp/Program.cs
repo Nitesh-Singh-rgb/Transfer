@@ -2,6 +2,7 @@
 
 namespace DemoApp;
 
+delegate double DaysRent(int days, int noPerson);
 class Program
 {
     static void Main(string[] args)
@@ -11,17 +12,18 @@ class Program
         Type t = Type.GetType($"MetTours.{args[2]}",true);
         object obj = Activator.CreateInstance(t);
         string te = null;
-        if(args[2] == "PremiumTours")
+        if(t.Name == "PremiumTours") 
         {
-            te = string.Format($"GetDaysRentFor{args[3]}");
+            te = $"GetDaysRentFor{args[3]}";
         }
-        if(args[2] == "EconomyTours")
+        if(t.Name == "EconomyTours")
         {
-            te = string.Format(args[3]);
+            te = args[3];
         }
         // MethodInfo scheme = t.GetMethod($"GetDaysRentFor{args[3]}");
         MethodInfo scheme = t.GetMethod(te);
-        double charge = (double)scheme.Invoke(obj, [days, noPerson]);   
+        var dr = scheme.CreateDelegate<DaysRent>(obj);
+        double charge = dr(days, noPerson);   
         System.Console.WriteLine("{0}", charge);
 
     }

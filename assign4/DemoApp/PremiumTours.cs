@@ -1,5 +1,3 @@
-
-
 namespace MetTours;
 
 class PremiumTours
