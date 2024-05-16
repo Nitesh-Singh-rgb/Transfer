@@ -8,9 +8,14 @@ public class HomeController(ShopModel shop) : Controller
 {
     public IActionResult Index()
     {
-        var products = shop.ReadProducts();
-        return View( products );
+        var products = new CommonModel
+        {
+            productInfo = shop.ReadProducts(),
+            orderInfo = shop.ReadOrders()
+        };
+        return  View( products) ;
     }
+
 
     [HttpPost]
 

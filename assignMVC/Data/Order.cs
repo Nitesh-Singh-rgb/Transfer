@@ -12,5 +12,5 @@ public class Order
     [Column("ProductNo")]
     public int ProductId { get; set;}
 
-    public int Quntity { get; set;}
+    public int Quantity { get; set;}
 }

@@ -1,5 +1,4 @@
-@model IEnumerable<DemoApp.Models.ProductInfo>
-
+@model DemoApp.Models.CommonModel
     <html>
         <head>
             <title>
@@ -16,12 +15,31 @@
                     <th>Price</th>
                     <th>Stock</th>
                 </tr>
-                @foreach(var product in Model)
+                @foreach(var product in Model.productInfo)
                 {
                     <tr>
                         <td>@product.Productid</td>
                         <td>@product.Price</td>
                         <td>@product.stock</td>
+                    </tr>
+                }
+            </table>
+            <table border="1" style="">
+                <tr>
+                    <th>OrderNo</th>
+                    <th>Date</th>
+                    <th>Customer Id</th>
+                    <th>Product No</th>
+                    <th>Quantity</th>
+                </tr>
+                @foreach(var product in Model.orderInfo)
+                {
+                    <tr>
+                        <td>@product.orderno</td>
+                        <td>@product.Date</td>
+                        <td>@product.customerid</td>
+                        <td>@product.productno</td>
+                        <td>@product.quantity</td>
                     </tr>
                 }
             </table>

@@ -18,6 +18,23 @@ public class ShopModel
         return [.. selection];
     }
 
+
+    public List<OrderInfo> ReadOrders()
+    {
+        using var db = new ShopDbContext();
+        var selection = from p in db.Orders
+                        select new OrderInfo
+                        {
+                            orderno = p.Id,
+                            customerid = p.CustomerId,
+                            productno = p.ProductId,
+                            quantity = p.Quantity,
+                            Date = p.OrderDate
+                        };
+
+        return [.. selection];
+    }
+
     public void WriteProduct(Product entry)
     {
         using var db = new ShopDbContext();
@@ -31,4 +48,6 @@ public class ShopModel
         product.Stock = entry.Stock;
         db.SaveChanges();
     }
+
+    
 }
