@@ -1,0 +1,38 @@
+@model IEnumerable<DemoApp.Models.ProductInfo>
+
+    <html>
+        <head>
+            <title>
+                DemoApp
+            </title>
+        </head>
+        <body>
+            <h1>
+                Products
+            </h1>
+            <table border="1">
+                <tr>
+                    <th>Product Id</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                </tr>
+                @foreach(var product in Model)
+                {
+                    <tr>
+                        <td>@product.Productid</td>
+                        <td>@product.Price</td>
+                        <td>@product.stock</td>
+                    </tr>
+                }
+            </table>
+            <form method="POST" action="/Home/Register">
+                <label>Product:</label>
+                <input type="number" name="id">
+                <label>Price:</label>
+                <input type="number" name="Price">
+                <label>Stock:</label>
+                <input type="number" name="stock">
+                <input type="submit" value="Register">
+            </form>
+        </body>
+    </html>
