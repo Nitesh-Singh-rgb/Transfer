@@ -1,0 +1,11 @@
+/home/cdac/cdac_exam/Mall/bin/Debug/net8.0/Mall.deps.json
+/home/cdac/cdac_exam/Mall/bin/Debug/net8.0/Mall.dll
+/home/cdac/cdac_exam/Mall/bin/Debug/net8.0/Mall.pdb
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/Mall.GeneratedMSBuildEditorConfig.editorconfig
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/Mall.AssemblyInfoInputs.cache
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/Mall.AssemblyInfo.cs
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/Mall.csproj.CoreCompileInputs.cache
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/Mall.dll
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/refint/Mall.dll
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/Mall.pdb
+/home/cdac/cdac_exam/Mall/obj/Debug/net8.0/ref/Mall.dll
