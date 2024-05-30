@@ -18,6 +18,6 @@ public class ShopDbContext : DbContext
 
      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Data Source=iitdac.met.edu;Database=Shop5;User Id=dac5;Password=Dac5@1234;Encrypt=False");
+        optionsBuilder.UseSqlServer("Data Source=--databases server ----;Database=Shop5;User Id=dac5;Password=Dac5@1234;Encrypt=False");
     }
 }
